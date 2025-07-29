@@ -23,7 +23,8 @@ If count is 0 → choose current number as candidate
 
 If number equals candidate → count++
 
-Else → count--*/
+Else → count--
+it's like voting . so at last most appeared eventually wins*/
 
 class Solution {
     public int majorityElement(int[] nums) {
